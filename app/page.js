@@ -1,5 +1,5 @@
 import Link from "next/link";
-import StudentInfo from "./StudentInfo/page.js"
+import StudentInfo from "./StudentInfo/page.js";
 
 export default function Home() {
   return (
@@ -8,6 +8,10 @@ export default function Home() {
       <StudentInfo />
       <Link href="/week2">
         Go to Week 2
+      </Link>
+      <br />
+      <Link href="/week3">
+        Go to Week 3
       </Link>
     </main>
   );
