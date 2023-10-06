@@ -1,10 +1,5 @@
-// ./app/page.js
 import Link from 'next/link';
 import StudentInfo from './StudentInfo/page.js';
-
-
-// Add the "use client" directive to mark this as a client component
-/* use client */
 
 export default function Home() {
   return (
@@ -16,6 +11,8 @@ export default function Home() {
       <Link href="/week3">Go to Week 3</Link>
       <br />
       <Link href="/week4">Go to Week 4</Link>
+      <br />
+      <Link href="/week5">Go to Week 5</Link>
     </main>
   );
 }
